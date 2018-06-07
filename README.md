@@ -1,19 +1,26 @@
+# INDICE
+
 <!-- TOC -->
 
-- [SpatiaLite routing](#spatialite-routing)
-- [Nozioni basilari sulle reti](#nozioni-basilari-sulle-reti)
-- [Fonti dati OSM](#fonti-dati-osm)
-- [Creazione database SpatiaLite e importazione dati](#creazione-database-spatialite-e-importazione-dati)
-- [Preparazione rete per routing](#preparazione-rete-per-routing)
-- [Creare virtual network](#creare-virtual-network)
-- [Creare shortestpath01](#creare-shortestpath01)
-- [Clonare virtual network](#clonare-virtual-network)
-- [Estrarre i dati](#estrarre-i-dati)
-- [Descrizione database](#descrizione-database)
-- [Ricerca errori](#ricerca-errori)
-- [video](#video)
+- [INDICE](#indice)
+- [Introduzione al routing con SpatiaLite](#introduzione-al-routing-con-spatialite)
+    - [SpatiaLite routing](#spatialite-routing)
+    - [Nozioni basilari sulle reti](#nozioni-basilari-sulle-reti)
+    - [Fonti dati OSM](#fonti-dati-osm)
+- [Capitoli Tutorial](#capitoli-tutorial)
+    - [01 Creazione database SpatiaLite e importazione dati](#01-creazione-database-spatialite-e-importazione-dati)
+    - [02 Preparazione rete per routing](#02-preparazione-rete-per-routing)
+    - [03 Creare virtual network](#03-creare-virtual-network)
+    - [04 Creare shortestpath01](#04-creare-shortestpath01)
+    - [05 Clonare virtual network](#05-clonare-virtual-network)
+    - [06 Estrarre i dati](#06-estrarre-i-dati)
+    - [07 Descrizione database](#07-descrizione-database)
+    - [08 Ricerca errori](#08-ricerca-errori)
+    - [09 video](#09-video)
 
 <!-- /TOC -->
+# Introduzione al routing con SpatiaLite
+
 
 ## SpatiaLite routing
 [estratto dal CookBook italiano di Alessandro Furieri pp.129](http://www.gaia-gis.it/spatialite-3.0.0-BETA/SpatiaLite-Cookbook_ITA.pdf)
@@ -65,57 +72,64 @@ scaricare OSM; tanto per citarne qualcuno:
 ![grafo](/img/licenza.jpg)
 
 ----
-## Creazione database SpatiaLite e importazione dati
+
+# Capitoli Tutorial
+
+## 01 Creazione database SpatiaLite e importazione dati
 
 ![grafo](/img/import_dati/import001.png 'spatialite_gui 2.1')
 
 [vai alla sezione -->](/tutorial/01_import_dati.md)
 
-## Preparazione rete per routing
+## 02 Preparazione rete per routing
 
 ![avvio](/img/import_dati/import021.png 'spatialite_gui') 
 
 [vai alla sezione -->](/tutorial/02_preparare-rete-per-routing.md)
 
-## Creare virtual network
+## 03 Creare virtual network
 
 ![grafo](/img/virtualNetwork/virtualN001.png 'spatialite_gui')
 
 [vai alla sezione -->](/tutorial/03_creare_virtual_network.md)
 
-## Creare shortestpath01
+## 04 Creare shortestpath01
 
 ![short](/img/shortestpath/short001.png 'avvio spatialite_gui')
 
 [vai alla sezione -->](/tutorial/04_creare_shortestpath01.md)
 
-## Clonare virtual network
+## 05 Clonare virtual network
 
 ![short](/img/shortestpath/short_01_004.png 'clonare tabella - ESEGUI!!! -->')
 
 [vai alla sezione -->](/tutorial/05_clonare_shortestpath01.md)
 
-## Estrarre i dati
+## 06 Estrarre i dati
 
 ![tab_fin](/img/tabelle_finali/tab_fin001.png 'vista: v_tabella_percorsi_minimi_01')
 
 [vai alla sezione -->](/tutorial/06_create_tabelle_output.md)
 
-## Descrizione database
+## 07 Descrizione database
 
 ![desc](/img/descrizione_db/desc_db.png)
 
 [vai alla sezione -->](/tutorial/07_descrizione_database.md)
 
-## Ricerca errori
+## 08 Ricerca errori
 
 [vai alla sezione -->](/tutorial/08_ricerca_errori.md)
 
-## video
+## 09 video
+
+I video non sono pubblici, sono visibili solo da chi ha il link a questo repo o a youtube.
 
 [![video youtube](https://img.youtube.com/vi/HKUNDusUcUY/0.jpg)](https://youtu.be/HKUNDusUcUY 'Import dati')
 
 [![video youtube](https://img.youtube.com/vi/k4gBkLh8Bf8/0.jpg)](https://youtu.be/k4gBkLh8Bf8 'Shortestpat_01')
+
+Buon lavoro!
 
 
 

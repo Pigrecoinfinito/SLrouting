@@ -20,7 +20,7 @@ importare uno shapefile 1:
 
 ![grafo](/img/import_dati/import004.png)
 
-importare uno shapefile 2: settare i dati
+importare uno shapefile 2: compilare interfaccia
 
 ![grafo](/img/import_dati/import005.png)
 
@@ -34,11 +34,11 @@ importare uno shapefile 4: Fatto!!!
 
 ### nel caso di civici con geometry type MultiPOINT
 
-importare il vettore seguendo la procedura precedente e poi verificare con il 'check Geometries':
+importare il vettore seguendo la procedura precedente e poi verificare con il `Check Geometries`:
 
 ![grafo](/img/import_dati/import008.png)
 
-tasto destro del mouse sul campo 'geom' e selezionare 'separating elementary geometries'
+tasto destro del mouse sul campo 'geom' e selezionare `separating elementary geometries`
 
 ![grafo](/img/import_dati/import010.png)
 
@@ -75,6 +75,8 @@ fatto:
 ### database con tutti i dati importati:
 
 ![grafo](/img/import_dati/import021.png)
+
+**NB**: Occorre particolare cura nello scrivere i nomi delle tabelle e dei campi (geom) e il SRID 4035, un eventuale errore creerebbe un mal funzionamento degli script SQL.
 
 [![video youtube](https://img.youtube.com/vi/HKUNDusUcUY/0.jpg)](https://youtu.be/HKUNDusUcUY 'Import dati')
 

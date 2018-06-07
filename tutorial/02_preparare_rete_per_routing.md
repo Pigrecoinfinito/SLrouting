@@ -4,7 +4,9 @@
 
 ![avvio](/img/import_dati/import021.png) 
 
-## step 2: creare un unico vettore puntuale (nodes_all) unendo _civici_cesbamed_ e _servizi_cesbamend_01_:
+database con i dati iniziali
+
+## step 2: creare un unico vettore puntuale (`nodes_all`) unendo _civici_cesbamed_ e _servizi_cesbamend_01_:
 
 creo tabella `nodes_all`:
 
@@ -38,11 +40,11 @@ FROM "servizi_cesbamed_01";
 ## STEP 3: creazione vertici/nodi, nella rete stradale, in corrispondenza dei civici e dei saf
 
 Questo script va lanciato in un database in cui sono presenti due tabelle:
-1. geoTabella `strade_cesbamed` contiene gli assi stradali topologicamente corretti;
-2. geoTabella `nodes_all` contiene i punti dei civici e dei saf;
-Risultato dello script è una geoTabella 'lines_split' con aggiunta di vertici in corrispondenza dei civici e saf geoTabella pronta per le fasi successive (è topologicamente corretta)
+1. GeoTabella `strade_cesbamed` contiene gli assi stradali topologicamente corretti;
+2. GeoTabella `nodes_all` contiene i punti dei civici e dei saf;
+risultato dello script è una geoTabella '_lines_split_' con aggiunta di vertici in corrispondenza dei civici e saf, geoTabella pronta per le fasi successive (è topologicamente corretta)
 
-eseguire lo `script_split.sql`
+`script_split.sql`
 
 ![pre](/img/prepara_rete/pre_rete005.png)
 
@@ -185,7 +187,7 @@ nodes:
 roads_network:
 ![pre](/img/prepara_rete/pre_rete012.png)
 
-### PS: ho creato un unico script da lanciare in spatialite_gui (script_all.sql) durata circa 55 secondi!!!
+### PS: ho creato un unico script da lanciare in spatialite_gui (`script_all.sql`) durata circa 55 secondi!!!
 
 questo unico script realizza tutti i passaggi (dallo step2 allo step4) di questa pagina; lo step1 è di preparazione del database.
 

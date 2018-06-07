@@ -10,6 +10,10 @@
 
 ![grafo](/img/virtualNetwork/virtualN002.png 'Build Network - configurazione')
 
+**NB**: di default i punti 8 e 9 si presentano come in figura, ma occorre modificarli lasciando solo la r al posto di roads: **r_network_net_data** e **r_network_net**; modifica indispensabile altrimenti gli script non troveranno le tabelle.
+
+**OSSERVAZIONI**: se la rete stradale di partenza è corretta topologicamente e la roads_network è stata creata correttamente non ci dovrebbero essere problemi a creare la build network tramite GUI. Solo in caso di errore è quasi indispensabile usare la CLI in quanto individua l'errore e suggerisce la correzione.
+
 ![grafo](/img/virtualNetwork/virtualN003.png 'Build Network creata con successo!!!')
 
 
@@ -45,14 +49,14 @@ WHERE NodeFrom = 1 AND Cost <=400;
 
 ![grafo](/img/virtualNetwork/virtualN006.png 'Query di selezione - cost')
 
-E finalmente possiamo controllare la nostra prima interrogazione di navigazione (query routing):
+E finalmente possiamo fare la prima interrogazione di navigazione (query routing):
 * definire semplicemente la clausola WHERE NodeFrom = ... AND NodeTo = ...
 * il risultato rappresenterà la soluzione di percorso minimo
 * la prima riga del risultato (limit 1) sintetizza l'intero percorso e contiene la corrispondente geometria;
 * le altre righe rappresentano i singoli archi da percorrere, nel giusto ordine, per andare dall'origine alla
 destinazione.
 
-Visualizziamo il percorso più breve in QGIS:
+Visualizziamo il percorso più breve in [QGIS](https://qgis.org/it/site/):
 
 **percorso più breve tra il nodo 1 e il 200:**
 ![grafo](/img/virtualNetwork/virtualN007.png 'Esempio - shortpath')

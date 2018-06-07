@@ -23,14 +23,14 @@ nel db troviamo:
 
 - **road_network** : tabella che rappresenta la rete stradale e necessaria per creare le due tabelle di sopra; (non toccare)
 
-- **shortestpath_01** : tabella che contiene tutti i percorsi brevi, proviene da altra tabella (vedi [creare_shortestpath01](creare_shortestpath01.md))
+- **shortestpath_01** : tabella che contiene tutti i percorsi brevi, proviene da altra tabella (vedi [creare_shortestpath01](04_creare_shortestpath01.md))
 
 - 5 viste di analisi:
     - **civici_residenti**: vista che mette assieme le due tabelle civici_cesbamed e civici_residenti;
-    - **v_nodefrom_servizi_01_civ** : vedi [create_tabelle_output](create_tabelle_output.md)
-    - **v_nodeto_civ_servizi_01** : vedi [create_tabelle_output](create_tabelle_output.md)
-    - **v_saf_residenti** : vedi [create_tabelle_output](create_tabelle_output.md)
-    - **v_tabella_percorsi_minimi_01** : vedi [create_tabelle_output](create_tabelle_output.md)
+    - **v_nodefrom_servizi_01_civ** : vedi [create_tabelle_output](06_create_tabelle_output.md)
+    - **v_nodeto_civ_servizi_01** : vedi [create_tabelle_output](06_create_tabelle_output.md)
+    - **v_saf_residenti** : vedi [create_tabelle_output](06_create_tabelle_output.md)
+    - **v_tabella_percorsi_minimi_01** : vedi [create_tabelle_output](06_create_tabelle_output.md)
 
 
 PS: Le viste (view) sono delle tabelle, in memoria, che dipendono da altre tabelle fisiche, quindi sono tabelle dinamiche che si aggiornano automaticamente (per convenzione iniziano con una v_.

@@ -1,6 +1,6 @@
 ## CREARE TABELLA PERCORSI PER OGNI CIVICO E PER OGNI SAF CON COST <=400
 
-avviare il seguente script all'interno di una cartella che contiene il **db_cesbamed.sqlite**
+lo script seguente genera tutti i percorsi brevi tra i civici e i saf con parametro <= 400 
 
 ```
 SELECT InitSpatialMetadata(1);
